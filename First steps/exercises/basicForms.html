@@ -1,0 +1,30 @@
+
+    <h2>Basicão de formulário</h2>
+    <p>Usamos nos formularios dois tipos de metodos, o "post" e "get", que dão
+        um sentido para o nosso formulario, mas precisam de conecção com banco de dados
+        oq n vai usando aqui. Lem disso tem outro atribuito chamado "action" que
+        basicamente indica pra onde esse formulario vai.
+    </p>
+
+    <p>Contudo a criação basica de um formulario é pela tag "form", "label" e "input",
+        onde cada uma pede que seu atributo seja preenchido de forma correta. Veja no exemplo abaixo. </p>
+
+
+    <h3>Preencha o formulário</h3>
+    <form action="">
+        <div>
+            <label for="username">Nome de usuário</label>
+        </div>
+        <div>
+            <input type="text" name="username" placeholder="Digite seu usuário" required>
+        </div>
+        <div>
+            <label for="password">Senha</label>
+        </div>
+        <div>
+            <input type="text" name="password" placeholder="Digite sua senha de usuário" required>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
