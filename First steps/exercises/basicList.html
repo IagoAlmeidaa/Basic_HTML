@@ -1,29 +1,52 @@
 <h2>Listas ordenada e não ordenada</h2>
 
-    <p>A principio temos duas formas de fazer uma lista no HTML, uma ordenada que é
-        representada pela tag "ol" e as não ordenadas usando a tag "ul". Vale ressaltar que
-        geralmente a desordenada é mais comum para fazer menus, usando uma tag de link e css pra estilizar.
-        <strong>Lembrando que todo o compolente da lista é dentro da tag "li"</strong>
-    </p>
-    <p>Lista ordenada:</p>
-    <ol>
-        <li>Banana</li>
-        <li>Morango</li>
-        <li>Uva</li>
-    </ol>
+<p>A principio temos duas formas de fazer uma lista no HTML, uma ordenada que é
+    representada pela tag "ol" e as não ordenadas usando a tag "ul". Vale ressaltar que
+    geralmente a desordenada é mais utilizada para fazer menus, usando uma tag de link e css na estilização.
+    <strong>Lembrando que todo o componente da lista é dentro da tag "li"</strong>
+</p>
+<p>Lista ordenada:</p>
+<ol>
+    <li>Banana</li>
+    <li>Morango</li>
+    <li>Uva</li>
+</ol>
 
-    <p>Lista desordenada:</p>
-    <ul>
-        <li>Casa</li>
-        <li>Moradia</li>
-        <li>Morador</li>
-    </ul>
+<p>Lista desordenada:</p>
+<ul>
+    <li>Casa</li>
+    <li>Moradia</li>
+    <li>Morador</li>
+</ul>
 
-    <p>Listas de definição são usadas em assuntos onde há um
-        termo a em sequência a sua definição, estilo perguntas e respostas:</p>
-    <dl>
-        <dt>HTML</dt>
-        <dd>Linguagem de marcação de texto</dd>
-        <dt>CSS</dt>
-        <dd>Usado para formatação de documentos</dd>
-    </dl>
+<p>Listas de definição são usadas em assuntos onde há um
+    termo a em sequência a sua definição, estilo perguntas e respostas:</p>
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação de texto</dd>
+    <dt>CSS</dt>
+    <dd>Usado para formatação de documentos</dd>
+</dl>
+<p>Listas aninhadas:</p>
+<p>Colocar uma lista dentro de outra podendo, inclusive, misturar listas ordenadas e não-ordenadas. Dependendo da
+    estrutura de lista que se deseja construir,
+    podem existir diversos níveis de aninhamento. Uma boa estratégia para aninhar listas é pensar isoladamente cada
+    parte (ou nível) da lista,
+    para depois juntar as partes (aninhar).</p>
+
+<ul>
+    <li>
+        backend
+        <ul>
+            <li>
+                app
+                <ul>
+                    <li>Produto.js</li>
+                    <li>Usuario.js</li>
+                    <li>Venda.js</li>
+                    <li>Desconto.js</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
