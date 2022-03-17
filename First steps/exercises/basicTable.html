@@ -1,28 +1,73 @@
 <h2>Conceito basico de tabelas</h2>
-    <p>Nessa parte quero abordar um pouco sobre a criação de tabelas no HTML, ent oq eu irei fazer se aplica
-        bem mais no código mas vcs irão ver o resultado logo dps.
-    </p>
-    <p>
-        Usaremos inicialmenta a tag "table" envolvendo toda a sintaxe da criação da tabela.
-        Usamos a tag "tr" para indicar as linhas contidas e "th" para para os titulos da coluna.
-        Lembrando que preenchemos a tablea com dados, fazendo-se nescessario utilizar uma nova tag chamada
-        "td" para os dados. vejam um ex basico.
-    </p>
+<p>Nessa parte quero abordar um pouco sobre a criação de tabelas no HTML, ent oq eu irei fazer se aplica
+    bem mais no código mas vcs irão ver o resultado logo dps.
+</p>
+<p>
+    Usaremos inicialmenta a tag "table" envolvendo toda a sintaxe da criação da tabela.
+    Usamos a tag "tr" para indicar as linhas contidas e "th" para para os titulos da coluna.
+    Lembrando que preenchemos a tablea com dados, fazendo-se nescessario utilizar uma nova tag chamada
+    "td" para os dados. vejam um ex basico.
+</p>
 
-    <table border="1px">
+<table border="1px">
+    <tr>
+        <th>Identificador</th>
+        <th>Nome</th>
+        <th>idade</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Sherly</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Jota</td>
+        <td>21</td>
+    </tr>
+</table>
+
+<h2>Tabela estilizada simples.</h2>
+<p>Abaixo temos uma aplicação de tabela um pouco mais elabora e com artifícios do HTML sendo utilizados para a
+    estilização.</p>
+
+<table id="tabela-estilizada">
+    <caption>Produtos</caption> 
+    <thead>
         <tr>
-            <th>Identificador</th>
-            <th>Nome</th>
-            <th>idade</th>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Arroz</td>
+            <td>19.50</td>
+            <td>5</td>
+            <td>97.50</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>Sherly</td>
-            <td>20</td>
+            <td>Oléo</td>
+            <td>10.90</td>
+            <td>3</td>
+            <td>32.70</td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>Jota</td>
-            <td>21</td>
+            <td>Feijão</td>
+            <td>8.50</td>
+            <td>3</td>
+            <td>25.5</td>
         </tr>
-    </table>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3">Total</td>
+            <td>155.70</td>
+        </tr>
+    </tfoot>
+
+</table>
