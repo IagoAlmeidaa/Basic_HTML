@@ -31,7 +31,29 @@ h1 {
 }
 
 #menu-h ul li a:hover{
-
     background-color: rgb(63, 63, 226);
 
 }
+
+#tabela-estilizada{
+    border-collapse:collapse;
+}
+
+#tabela-estilizada th, #tabela-estilizada td{
+ padding: 10px;
+}
+
+#tabela-estilizada thead, #tabela-estilizada th{
+ border-bottom: solid 3px rgb(68, 68, 68);
+}
+
+#tabela-estilizada tbody tr:hover{
+    background-color: #dedede;
+}
+
+#tabela-estilizada tfoot{
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+    
